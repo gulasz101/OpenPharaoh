@@ -1,5 +1,16 @@
-
 obj
 bin
 *.user
 *.suo
+target/
+web/pkg/
+*.sg2
+*.sg3
+*.555
+*.map
+*.sav
+*.smk
+*.wav
+*.mp3
+*.eng
+*.pak

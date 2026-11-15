@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpenPharaoh Web</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>OpenPharaoh Web</h1>
+
+    <div id="drop-zone">Drop your Pharaoh folder here</div>
+    <input type="file" id="folder-picker" webkitdirectory multiple style="margin-top: 0.5rem;" />
+
+    <pre id="file-list"></pre>
+
+    <p class="privacy-note">Your files stay on this computer. Nothing is uploaded.</p>
+
+    <footer>
+        <span id="version"></span>
+    </footer>
+
+    <script type="module" src="./pkg/pharaoh_web.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
